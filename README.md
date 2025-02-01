@@ -30,3 +30,22 @@ ayuda de Streamlit, la app permite visualizar diferentes gráficos y analizar el
    ```bash
    pip install -r requirements.txt
    ```
+
+## Liga del proyecto
+
+https://proyecto-sprint-7-0fjn.onrender.com/
+
+## Comentarios adicionales para el tutor
+
+Para este proyecto he instalado solo 3 librerias y asi mismo trate de exportar con los siguientes
+comandos:
+
+```
+$ conda install pandas scipy numpy -y
+$ pip install streamlit plotly_express
+$ conda list --export requirements.txt
+```
+
+Al exportar con el comando de conda, se genero una lista mucho mas extensa de almenos 30
+dependencias, que al tratar de deployar en render, obtuvo un fail, que sse puede hacer en estos
+casos que el comando instala mas dependencias que no sson necesarias?
